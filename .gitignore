@@ -1,0 +1,27 @@
+# Build
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# dotnet
+project.lock.json
+*.nupkg
+*.snupkg
+packages/
+
+# User secrets
+appsettings.*.json
+!appsettings.Development.json
+
+# IDE
+.idea/
+*.DS_Store
+Thumbs.db
+
+# Uploads
+wwwroot/uploads/
+
+# Migrations (optional - remove if you want to track them)
+# src/ExpenseTracker.Infrastructure/Data/Migrations/
